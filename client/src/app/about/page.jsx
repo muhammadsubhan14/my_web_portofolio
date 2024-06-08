@@ -204,8 +204,8 @@ export default function AboutPage() {
           </div>
         </div>
         {/* svg container */}
-        <div className="hidden lg:block w-1/3 sticky top-0 z-30 xl:1/2">
-          {/* <Brain /> */}
+        <div className="hidden md:block lg:block w-1/3 sticky top-0 z-30 xl:w-1/2 xl:-ml-28">
+          <Brain />
         </div>
       </div>
     </motion.div>
