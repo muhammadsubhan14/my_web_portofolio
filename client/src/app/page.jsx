@@ -4,6 +4,11 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 export default function Home() {
+  const handleDownloadCV = () => {
+    const cvURL = "/project/Muhammad_Subhan_Tarmedi_CV.pdf";
+    window.open(cvURL);
+  };
+
   return (
     <motion.div
       className="h-full"
@@ -45,11 +50,13 @@ export default function Home() {
                 View My Project
               </button>
             </Link>
-            <Link href={"/contact"}>
-              <button className="p-4 rounded-lg ring-1 ring-black">
-                Contact Me
-              </button>
-            </Link>
+
+            <button
+              className="p-4 rounded-lg ring-1 ring-black"
+              onClick={handleDownloadCV}
+            >
+              Download CV
+            </button>
           </div>
         </div>
       </div>
