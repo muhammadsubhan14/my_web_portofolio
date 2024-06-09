@@ -24,23 +24,28 @@ export default function AboutPage() {
         <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2">
           <div className="flex flex-col gap-12 justify-center">
             {/* biography title */}
-            <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
+            <h1 className="font-bold text-2xl hover:text-blue-400 hover:font-bold">
+              BIOGRAPHY
+            </h1>
             {/* biography desc */}
-            <p className="text-lg">
-              Hello, I'm Muhammad Subhan. After completing my Bachelor's degree
-              in Communication Science from Paramadina University, I began my
-              career at Bank Jenius as a KYC Analyst. However, my passion for
-              continuous learning led me on a different path. I became intrigued
-              by the world of IT, and I have since graduated from a fullstack
-              JavaScript bootcamp. My aspiration is to pursue a career as a
-              software developer, and I am committed to achieving this goal with
-              determination and dedication. I am confident that with a blend of
-              strong communication skills and a deep interest in technology, I
-              can make a meaningful contribution to a development team. I look
-              forward to the opportunity to demonstrate my potential and to join
-              a dynamic and innovative team.
+            <p className="text-lg hover:text-blue-400 hover:font-semibold">
+              Hello, I&apos;m Muhammad Subhan. After completing my
+              Bachelor&apos;s degree in Communication Science from Paramadina
+              University, I began my career at Bank Jenius as a KYC Analyst.
+              However, my passion for continuous learning led me on a different
+              path. I became intrigued by the world of IT, and I have since
+              graduated from a fullstack JavaScript bootcamp. My aspiration is
+              to pursue a career as a software developer, and I am committed to
+              achieving this goal with determination and dedication. I am
+              confident that with a blend of strong communication skills and a
+              deep interest in technology, I can make a meaningful contribution
+              to a development team. I look forward to the opportunity to
+              demonstrate my potential and to join a dynamic and innovative
+              team.
             </p>
-            <span className="italic">Best Regards, Hans</span>
+            <span className="italic hover:text-blue-400">
+              Best Regards, Hans
+            </span>
           </div>
           {/* Skills container*/}
           <div className="flex flex-col gap-12 justify-center" ref={skillRef}>
@@ -140,7 +145,7 @@ export default function AboutPage() {
                 {/* left */}
                 <div className="w-1/3">
                   {/* job title  */}
-                  <div className=" bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                  <div className=" bg-black p-3 font-semibold rounded-b-lg rounded-s-lg">
                     Fullstack Javascript
                   </div>
                   {/* job desc  */}
@@ -150,7 +155,7 @@ export default function AboutPage() {
                     Okt 2023 - March 2024
                   </div>
                   {/* company name  */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                  <div className="p-1 rounded bg-black text-sm font-semibold w-fit">
                     Hacktiv8
                   </div>
                 </div>
@@ -181,7 +186,7 @@ export default function AboutPage() {
                 <div className="w-1/3">
                   {" "}
                   {/* job title  */}
-                  <div className=" bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                  <div className=" bg-black p-3 font-semibold rounded-b-lg rounded-s-lg">
                     KYC Video Call
                   </div>
                   {/* job desc  */}
@@ -195,7 +200,7 @@ export default function AboutPage() {
                     Okt 2022 - sept 2023
                   </div>
                   {/* company name  */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                  <div className="p-1 rounded bg-black text-sm font-semibold w-fit">
                     Bank BTPN (Jenius)
                   </div>
                 </div>
