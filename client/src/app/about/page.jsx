@@ -145,7 +145,7 @@ export default function AboutPage() {
                 {/* left */}
                 <div className="w-1/3">
                   {/* job title  */}
-                  <div className=" bg-black p-3 font-semibold rounded-b-lg rounded-s-lg">
+                  <div className=" bg-black  text-white p-3 font-semibold rounded-b-lg rounded-s-lg">
                     Fullstack Javascript
                   </div>
                   {/* job desc  */}
@@ -155,7 +155,7 @@ export default function AboutPage() {
                     Okt 2023 - March 2024
                   </div>
                   {/* company name  */}
-                  <div className="p-1 rounded bg-black text-sm font-semibold w-fit">
+                  <div className="p-1 rounded bg-black text-white text-sm font-semibold w-fit">
                     Hacktiv8
                   </div>
                 </div>
@@ -186,7 +186,7 @@ export default function AboutPage() {
                 <div className="w-1/3">
                   {" "}
                   {/* job title  */}
-                  <div className=" bg-black p-3 font-semibold rounded-b-lg rounded-s-lg">
+                  <div className=" bg-black text-white p-3 font-semibold rounded-b-lg rounded-s-lg">
                     KYC Video Call
                   </div>
                   {/* job desc  */}
@@ -200,7 +200,7 @@ export default function AboutPage() {
                     Okt 2022 - sept 2023
                   </div>
                   {/* company name  */}
-                  <div className="p-1 rounded bg-black text-sm font-semibold w-fit">
+                  <div className="p-1 rounded bg-black text-white text-sm font-semibold w-fit">
                     Bank BTPN (Jenius)
                   </div>
                 </div>
